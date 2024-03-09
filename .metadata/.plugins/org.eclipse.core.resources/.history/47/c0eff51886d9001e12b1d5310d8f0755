@@ -1,0 +1,30 @@
+package br.com.fiap.main;
+
+import javax.swing.JOptionPane;
+
+public class TesteVetorProduto {
+
+	//Preparar as variaveis
+	
+	//String
+	static String texto(String j) {
+		return JOptionPane.showInputDialog(j);
+	}
+	
+	//Int
+	static int inteiro(String j) {
+		return Integer.parseInt(JOptionPane.showInputDialog(j));
+	}
+	
+	//Double
+	static Double real(String j) {
+		return Double.parseDouble(JOptionPane.showInputDialog(j));
+	}
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

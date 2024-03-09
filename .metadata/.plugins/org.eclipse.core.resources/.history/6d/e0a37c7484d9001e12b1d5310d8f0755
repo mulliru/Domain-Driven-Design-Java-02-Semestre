@@ -1,0 +1,10 @@
+package br.com.fiap.beans;
+
+public class Produto {
+
+	//Visibilidade + tipo de dado + nome da variavel;
+	
+	private String nome;
+	private int quantidade;
+	private double valor;
+}

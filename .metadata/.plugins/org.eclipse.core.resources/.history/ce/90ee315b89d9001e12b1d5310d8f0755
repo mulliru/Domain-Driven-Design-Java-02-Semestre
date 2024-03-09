@@ -1,0 +1,65 @@
+package br.com.fiap.main;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.swing.JOptionPane;
+
+import br.com.fiap.beans.Produto;
+
+public class TesteArrayProduto {
+
+	
+	//Preparar as variaveis
+	
+	//String
+	static String texto(String j) {
+		return JOptionPane.showInputDialog(j);
+	}
+	
+	//Int
+	static int inteiro(String j) {
+		return Integer.parseInt(JOptionPane.showInputDialog(j));
+	}
+	
+	//Double
+	static Double real(String j) {
+		return Double.parseDouble(JOptionPane.showInputDialog(j));
+	}
+	
+	
+	public static void main(String[] args) {
+		
+		// Lista de Produtos
+		List<Produto> listaProdutos = new ArrayList<Produto>();
+		
+		//Prepara objProduto
+		Produto objProduto;
+		
+		//Entrada
+		do {
+			objProduto = new Produto();
+			objProduto.setNome(texto("Digite o nome do produto: "));
+			objProduto.setQuantidade(inteiro("Digite a quantidade: "));
+			objProduto.setValor(real("Digite o valor: "));
+			
+			listaProdutos.add(objProduto);
+			
+		} while (JOptionPane.showConfirmDialog(null, "Adicionar mais coisas ao carrinho?",
+				"CARRINHO DE COMPRAS", JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE)==0);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}
