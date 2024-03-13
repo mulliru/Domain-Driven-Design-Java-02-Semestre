@@ -1,0 +1,10 @@
+DROP TABLE T_FIAP_PRODUTO
+
+CREATE TABLE T_FIAP_PRODUTO(
+    codigo INT NOT NULL PRIMARY KEY,
+    tipo varchar2(50) NOT NULL,
+    marca varchar(2) NOT NULL, 
+    valor number(9,2) NOT NULL
+);
+
+SELECT * FROM T_FIAP_PRODUTO;
