@@ -1,8 +1,11 @@
 package br.com.fiap.main;
 
+import java.sql.SQLException;
+
 import javax.swing.JOptionPane;
 
 import br.com.fiap.beans.Produto;
+import br.com.fiap.dao.ProdutoDao;
 
 
 public class TesteCadastrar {
@@ -24,11 +27,11 @@ public class TesteCadastrar {
 			}
 	
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) throws ClassNotFoundException, SQLException {
 		// instanciar objetos
 		Produto objProduto = new Produto();
 		
-		ProdutoDAO dao = new ProdutoDAO();
+		ProdutoDao dao = new ProdutoDao();
 		
 		objProduto.setCodigo(inteiro("Codigo"));
 		objProduto.setTipo(texto("Tipo"));
