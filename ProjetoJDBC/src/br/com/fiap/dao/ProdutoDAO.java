@@ -53,7 +53,6 @@ public class ProdutoDAO {
 		stmt.close();
 		
 		
-		
 		return "Produto atualizado com sucesso";
 	}
 }
