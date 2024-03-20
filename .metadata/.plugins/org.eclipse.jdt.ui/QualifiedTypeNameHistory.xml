@@ -7,12 +7,15 @@
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.sql.DriverManager"/>
-    <fullyQualifiedTypeName name="java.sql.Connection"/>
     <fullyQualifiedTypeName name="br.com.fiap.conexoes.ConexaoFactory"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="java.lang.ClassNotFoundException"/>
     <fullyQualifiedTypeName name="java.sql.SQLException"/>
     <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
     <fullyQualifiedTypeName name="br.com.fiap.beans.Produto"/>
+<<<<<<< HEAD
     <fullyQualifiedTypeName name="br.com.fiap.dao.ProdutoDAO"/>
+=======
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+>>>>>>> 8e15604e728bb57197b1724b9fd6483c15b0f810
 </qualifiedTypeNameHistroy>
