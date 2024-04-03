@@ -10,4 +10,15 @@
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="br.com.fiap.beans.Produto"/>
+    <fullyQualifiedTypeName name="org.apache.http.client.methods.HttpGet"/>
+    <fullyQualifiedTypeName name="java.io.Closeable"/>
+    <fullyQualifiedTypeName name="org.apache.http.impl.client.CloseableHttpClient"/>
+    <fullyQualifiedTypeName name="org.apache.http.impl.BHttpConnectionBase"/>
+    <fullyQualifiedTypeName name="org.apache.http.impl.client.HttpClientBuilder"/>
+    <fullyQualifiedTypeName name="org.apache.http.client.methods.CloseableHttpResponse"/>
+    <fullyQualifiedTypeName name="org.apache.http.HttpEntity"/>
+    <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+    <fullyQualifiedTypeName name="br.com.fiap.services.ViaCepService"/>
+    <fullyQualifiedTypeName name="br.com.fiap.modelo.Endereco"/>
+    <fullyQualifiedTypeName name="org.apache.http.util.EntityUtils"/>
 </qualifiedTypeNameHistroy>
