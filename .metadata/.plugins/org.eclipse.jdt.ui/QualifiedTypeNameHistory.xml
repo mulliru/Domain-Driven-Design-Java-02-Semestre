@@ -10,15 +10,20 @@
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="br.com.fiap.beans.Produto"/>
-    <fullyQualifiedTypeName name="org.apache.http.client.methods.HttpGet"/>
     <fullyQualifiedTypeName name="java.io.Closeable"/>
-    <fullyQualifiedTypeName name="org.apache.http.impl.client.CloseableHttpClient"/>
     <fullyQualifiedTypeName name="org.apache.http.impl.BHttpConnectionBase"/>
+    <fullyQualifiedTypeName name="br.com.fiap.modelo.Endereco"/>
+    <fullyQualifiedTypeName name="br.com.fiap.main.TesteViaCep"/>
+    <fullyQualifiedTypeName name="br.com.fiap.services.viacepService"/>
+    <fullyQualifiedTypeName name="org.apache.http.protocol.HTTP"/>
+    <fullyQualifiedTypeName name="org.apache.http.client.methods.HttpGet"/>
+    <fullyQualifiedTypeName name="org.apache.http.impl.client.CloseableHttpClient"/>
     <fullyQualifiedTypeName name="org.apache.http.impl.client.HttpClientBuilder"/>
     <fullyQualifiedTypeName name="org.apache.http.client.methods.CloseableHttpResponse"/>
     <fullyQualifiedTypeName name="org.apache.http.HttpEntity"/>
-    <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
-    <fullyQualifiedTypeName name="br.com.fiap.services.ViaCepService"/>
-    <fullyQualifiedTypeName name="br.com.fiap.modelo.Endereco"/>
     <fullyQualifiedTypeName name="org.apache.http.util.EntityUtils"/>
+    <fullyQualifiedTypeName name="com.google.gson.Gson"/>
+    <fullyQualifiedTypeName name="br.com.fiap.model.Endereco"/>
+    <fullyQualifiedTypeName name="br.com.fiap.services.ViaCepService"/>
+    <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
 </qualifiedTypeNameHistroy>
