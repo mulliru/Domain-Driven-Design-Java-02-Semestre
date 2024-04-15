@@ -12,7 +12,6 @@ import org.apache.http.util.EntityUtils;
 
 import com.google.gson.Gson;
 
-import br.com.fiap.model.Endereco;
 import br.com.fiap.model.Planeta;
 
 public class PlanetaSWService {
