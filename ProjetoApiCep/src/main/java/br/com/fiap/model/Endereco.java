@@ -1,4 +1,4 @@
-package br.com.fiap.modelo;
+package br.com.fiap.model;
 
 public class Endereco {
 

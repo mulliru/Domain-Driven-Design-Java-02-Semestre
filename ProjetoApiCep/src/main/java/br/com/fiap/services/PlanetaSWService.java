@@ -13,16 +13,17 @@ import org.apache.http.util.EntityUtils;
 import com.google.gson.Gson;
 
 import br.com.fiap.model.Endereco;
+import br.com.fiap.model.Planeta;
 
-public class ViaCepService {
+public class PlanetaSWService {
 
-	// Metodo
-	public Endereco getEndereco(String cep) throws ClientProtocolException, IOException {
+	// metodo
+	public Planeta getPlaneta(String p) throws ClientProtocolException, IOException {
 
-		Endereco endereco = null;
+		Planeta planeta = null;
 
-		// Request
-		HttpGet request = new HttpGet("https://viacep.com.br/ws/" + cep + "/json/");
+		// request
+		HttpGet request = new HttpGet("https://swapi.dev/api/planets" + p);
 
 		// Client
 		CloseableHttpClient httpClient = HttpClientBuilder.create().disableRedirectHandling().build();
@@ -39,9 +40,10 @@ public class ViaCepService {
 
 			Gson gson = new Gson();
 
-			endereco = gson.fromJson(result, Endereco.class);
+			planeta = gson.fromJson(result, Planeta.class);
 		}
 
-		return endereco;
+		return planeta;
 	}
+
 }

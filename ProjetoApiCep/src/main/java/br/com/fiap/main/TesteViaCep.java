@@ -6,7 +6,7 @@ import javax.swing.JOptionPane;
 
 import org.apache.http.client.ClientProtocolException;
 
-import br.com.fiap.modelo.Endereco;
+import br.com.fiap.model.Endereco;
 import br.com.fiap.services.ViaCepService;
 
 public class TesteViaCep {

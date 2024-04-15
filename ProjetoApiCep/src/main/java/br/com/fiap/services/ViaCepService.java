@@ -10,7 +10,8 @@ import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClientBuilder;
 import org.apache.http.util.EntityUtils;
 import com.google.gson.Gson;
-import br.com.fiap.modelo.Endereco;
+
+import br.com.fiap.model.Endereco;
 
 public class ViaCepService {
 
