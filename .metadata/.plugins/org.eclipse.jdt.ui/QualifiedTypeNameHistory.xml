@@ -26,4 +26,5 @@
     <fullyQualifiedTypeName name="br.com.fiap.model.Endereco"/>
     <fullyQualifiedTypeName name="br.com.fiap.services.ViaCepService"/>
     <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+    <fullyQualifiedTypeName name="br.com.fiap.services.PlanetaSWService"/>
 </qualifiedTypeNameHistroy>
